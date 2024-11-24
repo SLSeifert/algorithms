@@ -10,7 +10,7 @@ def findSmallest(arr):
 
 def selectionSort(arr):
     newArr = []
-    copiedArr = list(arr)
+    copiedArr = list(arr) 
     for i in range(len(copiedArr)):
         smallest = findSmallest(copiedArr)
         newArr.append(copiedArr.pop(smallest))
